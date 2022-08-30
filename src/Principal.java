@@ -1,3 +1,6 @@
+
+import java.util.ArrayList;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -18,5 +21,10 @@ public class Principal {
         System.out.println(unFlotante);
         System.out.println(unDoble);
         System.out.println(unaCadena);
+        
+        ArrayList<Float> listaFlotante = new ArrayList();
+        
+        listaFlotante.add(2.5f);
+        System.out.println(listaFlotante);
     }
 }
